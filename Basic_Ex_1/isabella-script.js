@@ -4,6 +4,6 @@ let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for (let i = 0; i <= array.length; i++) {
     if (i < array.length) {
         let result = 1 * array[i];
-        console.table("1X " + result);
+        console.log(result);
     }
 }
